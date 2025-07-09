@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+
+<body id="top">
+
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+            <div class="row s-header__inner">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="images/images.png" alt="Homepage">
+                            
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">    
+                    <ul class="s-header__menu-links">
+                        <li class="current"><a class="smoothscroll" href="#intro">Intro</a></li>
+                        <li><a class="smoothscroll" href="#about">About</a></li>
+                        <li><a class="smoothscroll" href="#footer">Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+        </header> <!-- end s-header -->
+
+
+        <!-- # intro
+        ================================================== -->
+        <section id="intro" class="s-intro target-section">
+
+            <div class="row s-intro__content width-sixteen-col">
+                <div class="column lg-12 s-intro__content-inner grid-block grid-16">
+                    
+                    <div class="s-intro__content-text">
+
+                        <div class="s-intro__content-pretitle text-pretitle">Hello</div>
+                        <h1 class="s-intro__content-title">
+                        I'm Rahul Shaji <br>
+                        Software Developer <br>
+                        <!-- turning ideas into digital reality. -->
+                        </h1>                            
+
+                        <div class="s-intro__content-btns">
+                            <a class="smoothscroll btn" href="#about">More About Me</a>
+                            <a class="smoothscroll btn btn--stroke" href="#footer">Get In Touch</a>
+                        </div> <!-- s-intro__content-btns -->   
+
+                    </div> <!-- s-intro__content-text -->                     
+                    
+                </div> <!-- s-intro__content-inner -->  
+            </div> <!-- s-intro__content -->
+
+            <ul class="s-intro__social social-list">
+
+                <li>
+                    <a href="https://www.linkedin.com/in/rahul-shaji/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0,0,0,1);">
+                            <path d="M19 0h-14c-2.762 0-5 2.238-5 5v14c0 2.762 2.238 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.762-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.268h-3v-5.604c0-1.338-.027-3.061-1.865-3.061-1.867 0-2.153 1.458-2.153 2.963v5.702h-3v-10h2.881v1.367h.041c.401-.761 1.381-1.565 2.841-1.565 3.037 0 3.6 2.001 3.6 4.604v5.594z"/>
+                        </svg>
+                        <span class="u-screen-reader-text">LinkedIn</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://github.com/rahulshajii" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0,0,0,1);">
+                            <path d="M12 .5c-6.627 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.385-1.333-1.754-1.333-1.754-1.089-.745.083-.729.083-.729 1.205.085 1.84 1.238 1.84 1.238 1.07 1.835 2.807 1.305 3.492.998.108-.776.418-1.305.762-1.605-2.665-.3-5.466-1.333-5.466-5.931 0-1.31.468-2.381 1.235-3.221-.123-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.289-1.552 3.295-1.23 3.295-1.23.653 1.653.241 2.873.118 3.176.77.84 1.233 1.911 1.233 3.221 0 4.609-2.804 5.628-5.475 5.921.43.37.823 1.1.823 2.218 0 1.602-.015 2.893-.015 3.286 0 .321.216.694.825.576 4.765-1.586 8.2-6.082 8.2-11.384 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        <span class="u-screen-reader-text">GitHub</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://www.hackerrank.com/profile/rahulshaji520" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0,0,0,1);">
+                            <path d="M21.533 4.504l-9.533-4.504-9.533 4.504v15l9.533 4.496 9.533-4.496v-15zm-5.533 12.496h-2v-3h-4v3h-2v-9h2v3h4v-3h2v9z"/>
+                        </svg>
+                        <span class="u-screen-reader-text">HackerRank</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/rahhhul.__/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0,0,0,1);">
+                            <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7zm5.25-.75a.75.75 0 1 1 0 1.5a.75.75 0 0 1 0-1.5z"/>
+                        </svg>
+                        <span class="u-screen-reader-text">Instagram</span>
+                    </a>
+                </li>
+                
+                <!-- Facebook -->
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=61577197033239" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0,0,0,1);">
+                            <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987H7.898v-2.891h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.772-1.63 1.562v1.875h2.773l-.443 2.891h-2.33v6.987C18.343 21.128 22 16.991 22 12z"/>
+                        </svg>
+                        <span class="u-screen-reader-text">Facebook</span>
+                    </a>
+                </li>
+                
+                
+                
+                
+            </ul> <!-- end s-intro__social -->
+
+            <div class="s-intro__content-media">                               
+                <img src="images/intropic.jpeg" srcset="images/intropic.jpeg1x, images/intropic.jpeg 2x" alt="">
+            </div> <!-- s-intro__content-media -->                
+
+            <div class="s-intro__btn-download">
+                <a class="btn btn--stroke" href="images/degree_Resume.pdf">Get My CV</a>
+            </div> <!-- end s-intro__btn-download -->
+            
+            <div class="s-intro__scroll-down">
+                <a href="#about" class="smoothscroll">
+                    <div class="scroll-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M11.178 19.569a.998.998 0 0 0 1.644 0l9-13A.999.999 0 0 0 21 5H3a1.002 1.002 0 0 0-.822 1.569l9 13z"></path></svg>
+                    </div>
+                    <span class="scroll-text u-screen-reader-text">Scroll Down</span>
+                </a>
+            </div> <!-- s-intro__scroll-down -->
+
+        </section> <!-- end s-intro -->
+
+
+        <!-- # about
+        ================================================== -->
+        <section id="about" class="s-about target-section">
+
+            <div class="row s-about__content">
+                <div class="column xl-12">    
+                    
+                    <div class="section-header" data-num="01">
+                        <h2 class="text-display-title">About Me.</h2>
+                    </div> <!-- end section-header -->
+
+                    <p class="attention-getter">
+                        I am an enthusiastic and adaptable web developer with a passion for crafting responsive and user-centric digital experiences. With a strong academic background in computer applications, I have developed skills in front-end and back-end technologies including HTML, CSS, JavaScript, PHP, and MySQL. My projects range from dynamic booking platforms to machine learning-based health applications, showcasing both creativity and technical problem-solving. I enjoy building clean, efficient, and interactive interfaces that not only look good but also deliver seamless user experiences.
+                    </p>
+
+                    <p class="attention-getter">
+                        I am continuously learning and exploring new tools, frameworks, and trends in the tech world to stay ahead. I thrive in collaborative environments, where sharing ideas and working together lead to better outcomes. At the same time, I am confident in handling tasks independently and taking ownership of complete projects. My goal is to join a forward-thinking team where I can contribute meaningfully, grow professionally, and help bring impactful ideas to life through technology.                    </p>
+
+                    <div class="grid-list-items s-about__blocks">
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Projects</h4>
+                            <ul class="s-about__list">
+                                <li>
+                                    Vintage Car Hub 
+                                    <a href="https://github.com/rahulshajii/PHP-Vintagecar" target="_blank" style="color: #4078c0; font-family: 'Courier New', monospace; font-weight: bold; text-decoration: none; margin-left: 8px;">GitHub</a>
+                                    <span>Vintage car booking platform using PHP and MySQL</span>
+                                </li>
+                                <li>
+                                    Thyroid Detection System 
+                                    <a href="https://github.com/rahulshajii/Thyroid-Detection-System" target="_blank" style="color: #4078c0; font-family: 'Courier New', monospace; font-weight: bold; text-decoration: none; margin-left: 8px;">GitHub</a>
+                                    <span>ML-powered web app using Flask and Random Forest</span>
+                                </li>
+                                <li>
+                                    Personal Portfolio 
+                                    <a href="https://github.com/rahulshajii/Portfolio" target="_blank" style="color: #4078c0; font-family: 'Courier New', monospace; font-weight: bold; text-decoration: none; margin-left: 8px;">GitHub</a>
+                                    <span>Responsive website built with HTML, CSS, and JavaScript</span>
+                                </li>
+                                
+                            </ul>
+                        </div> <!--end s-about__block -->
+
+                        <div class="grid-list-items__item s-about__block">
+                            <h4 class="s-about__block-title">Technical Skills</h4>
+                        
+                            <ul class="s-about__list">
+                                <li>
+                                    Programming Languages
+                                    <span>C, C++, Java, Python, PHP</span>
+                                </li>
+                                <li>
+                                    Web Technologies
+                                    <span>HTML, CSS, JavaScript, Bootstrap</span>
+                                </li>
+                                <li>
+                                    Frameworks & Tools
+                                    <span>Flask, XAMPP, Git, VSCode</span>
+                                </li>
+                                <li>
+                                    Database
+                                    <span>MySQL</span>
+                                </li>
+                                <li>
+                                    APIs & Libraries
+                                    <span>Random Forest (ML), Scikit-learn, Pandas</span>
+                                </li>
+                            </ul>
+                        </div> <!--end s-about__block-->
+                        
+                        
+                        <div class="grid-list-items__item s-about__block">
+    <h4 class="s-about__block-title">Soft Skills</h4>
+
+    <ul class="s-about__list">
+        <li>
+            Adaptability
+        </li>
+        <li>
+            Quick Learning
+        </li>
+        <li>
+            Problem Solving
+        </li>
+        <li>
+            Team Collaboration
+        </li>
+        <li>
+            Communication Skills
+        </li>
+        <li>
+            Time Management
+        </li>
+    </ul>
+</div> <!--end s-about__block-->
+
+
+                    </div> <!-- grid-list-items -->
+
+                </div> <!--end column -->
+            </div> <!--end s-about__content -->
+            
+        </section> <!-- end s-about -->   
+
+
+
+       
+
+
+        <!-- # footer 
+        ================================================== -->
+        <footer id="footer" class="s-footer target-section">
+
+            <div class="row">
+                <div class="column lg-12">
+                    <div class="section-header light-on-dark" >
+                        <h2 class="text-display-title">Get In Touch.</h2>
+                    </div> <!-- end section-header -->
+                </div>
+            </div>
+
+            <div class="row s-footer__content">
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__about">                    
+                    <p class="attention-getter">
+                        I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Whether you have a question, a collaboration in mind, or just want to say hello, feel free to reach out. I’ll get back to you as soon as I can. Let’s build something great together!
+                    </p>               
+                </div> <!-- end section-footer__about -->
+
+                <div class="column xl-6 md-12 s-footer__block s-footer__site-links">
+                    <div class="row">
+                        <div class="column xl-4 lg-5 md-6 tab-12">
+                            <h5>Follow Me</h5>
+                            <ul class="link-list">
+                                <li><a href="https://www.linkedin.com/in/rahul-shaji/">Linkedin</a></li>
+                                <li><a href="https://github.com/rahulshajii">Github</a></li>
+                                <li><a href="https://www.hackerrank.com/profile/rahulshaji520">Hackerrank</a></li> 
+                            </ul>
+                        </div>
+                        <div class="column xl-6 md-6 tab-12">
+                            <h5>Contact Me</h5>
+                            <ul class="link-list">
+                                <li><a href="mailto:rahulshaji520@gmail.com">rahulshaji520@gmail.com</a></li>
+                                <li><a href="tel:+917594017614">+91 759 4017 614</a></li>
+                            </ul> 
+                        </div>
+                    </div>                    
+                </div> <!-- end section-footer__site-links -->
+
+            </div> <!-- end section-footer__content -->
+
+
+            <div class="row s-footer__buttons">
+               
+                <div class="column xl-6 tab-12">
+                    <a href="mailto:rahulshaji520@gmail.com" class="btn btn--primary btn--large u-fullwidth">Message Me</a>
+                </div>
+          
+                <div class="column xl-6 tab-12">                    
+                    <a href="images/degree_Resume.pdf" class="btn btn--stroke btn--large u-fullwidth">Get My CV</a>
+                </div>
+            
+            </div> <!-- end section-footer__buttons -->              
+            
+            <div class="row s-footer__bottom">
+                
+                <div class="column xl-6 lg-12">
+                    <ul class="s-footer__social social-list">
+                         <!-- LinkedIn -->
+    <li>
+        <a href="https://www.linkedin.com/in/rahul-shaji/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);">
+                <path d="M19 0h-14c-2.762 0-5 2.238-5 5v14c0 2.762 2.238 5 5 5h14c2.762 0 5-2.238 5-5v-14c0-2.762-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.268h-3v-5.604c0-1.338-.027-3.061-1.865-3.061-1.867 0-2.153 1.458-2.153 2.963v5.702h-3v-10h2.881v1.367h.041c.401-.761 1.381-1.565 2.841-1.565 3.037 0 3.6 2.001 3.6 4.604v5.594z"/>
+            </svg>
+            <span class="u-screen-reader-text">LinkedIn</span>
+        </a>
+    </li>
+
+    <!-- GitHub -->
+    <li>
+        <a href="https://github.com/rahulshajii" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);">
+                <path d="M12 .5c-6.627 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 
+                0-.285-.01-1.04-.015-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.385-1.333-1.754-1.333-1.754-1.089-.745.083-.729.083-.729 
+                1.205.085 1.84 1.238 1.84 1.238 1.07 1.835 2.807 1.305 3.492.998.108-.776.418-1.305.762-1.605-2.665-.3-5.466-1.333-5.466-5.931 
+                0-1.31.468-2.381 1.235-3.221-.123-.303-.535-1.523.117-3.176 
+                0 0 1.008-.322 3.3 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 
+                2.289-1.552 3.295-1.23 3.295-1.23.653 1.653.241 2.873.118 3.176 
+                .77.84 1.233 1.911 1.233 3.221 0 4.609-2.804 5.628-5.475 5.921 
+                .43.37.823 1.1.823 2.218 0 1.602-.015 2.893-.015 3.286 
+                0 .321.216.694.825.576 4.765-1.586 8.2-6.082 8.2-11.384 
+                0-6.627-5.373-12-12-12z"/>
+            </svg>
+            <span class="u-screen-reader-text">GitHub</span>
+        </a>
+    </li>
+
+    <!-- HackerRank -->
+    <li>
+        <a href="https://www.hackerrank.com/profile/rahulshaji520" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);">
+                <path d="M21.533 4.504l-9.533-4.504-9.533 4.504v15l9.533 4.496 9.533-4.496v-15zm-5.533 12.496h-2v-3h-4v3h-2v-9h2v3h4v-3h2v9z"/>
+            </svg>
+            <span class="u-screen-reader-text">HackerRank</span>
+        </a>
+    </li>
+
+    <!-- Instagram -->
+    <li>
+        <a href="https://www.instagram.com/rahhhul.__/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);">
+                <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7zm5.25-.75a.75.75 0 1 1 0 1.5a.75.75 0 0 1 0-1.5z"/>
+            </svg>
+            <span class="u-screen-reader-text">Instagram</span>
+        </a>
+    </li>
+
+    <!-- Facebook -->
+    <li>
+        <a href="https://www.facebook.com/profile.php?id=61577197033239" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);">
+                <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987H7.898v-2.891h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.772-1.63 1.562v1.875h2.773l-.443 2.891h-2.33v6.987C18.343 21.128 22 16.991 22 12z"/>
+            </svg>
+            <span class="u-screen-reader-text">Facebook</span>
+        </a>
+    </li>
+                    </ul> 
+                </div> <!-- end section-footer__social -->
+
+               
+
+            </div> <!-- end section-footer__bottom -->          
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">                 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"></path></svg>
+                </a>                                
+                <span>Back To Top</span>   
+            </div> <!-- end ss-go-top -->
+            
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end page-wrap -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
