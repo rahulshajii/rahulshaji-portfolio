@@ -1,1 +1,0 @@
-This is my personal portfolio website built to showcase my skills, projects, and achievements as a software developer and AI enthusiast. It highlights my experience in web development, machine learning, and various tech tools I've worked with.
